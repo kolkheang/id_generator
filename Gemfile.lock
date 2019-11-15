@@ -90,7 +90,8 @@ GEM
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     rack (2.0.7)
-    rack-cors (1.0.3)
+    rack-cors (1.0.5)
+      rack (>= 1.6.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.0)
@@ -164,7 +165,7 @@ DEPENDENCIES
   byebug
   jbuilder (~> 2.0)
   jquery-rails
-  rack-cors (= 1.0.3)
+  rack-cors (= 1.0.5)
   rails (= 6.0.0)
   sass-rails (~> 6.0)
   sdoc (~> 0.4.0)
